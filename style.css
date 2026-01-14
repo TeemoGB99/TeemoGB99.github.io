@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #2f2f2f;
+    color: #d3d3d3;
+}
+
+strong {
+    color: #3f9fa0;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.intro {
+    text-align: center;
+}
+
+hr {
+    margin: 30px 0;
+    border-color: #5e5e5e;
+    border-style: dashed;
+}
+
+#projectList {
+    display: flex;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #3d3d3d;
+    transition: all .5s;
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #d3d3d3;
+}
+.card:hover{
+    box-shadow: 0 0 14px 3px #3f9fa0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+.card .desc {
+    padding: 20px;
+}
+.card .desc h4 {
+    margin: 0 0 1em;
+}
+.card .desc .moreBtn {
+    background: transparent;
+    color: #d3d3d3;
+    border: 1px solid #d3d3d3;
+    border-radius: 100px;
+    padding: 15px 10px;
+    width: 100%;
+    cursor: pointer;
+}
